@@ -68,7 +68,7 @@ def main():
 
     # 3. Setup audio stream
     CHUNK = 1024
-    RATE = 44100
+    RATE = 48000
 
     try:
         stream = p.open(format=pyaudio.paInt16,
